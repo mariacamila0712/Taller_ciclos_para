@@ -14,7 +14,18 @@ Millones
 Mayor de 20 Millones y 
 menor de 40 Millones
 15%
-Mayor o igual de 40 20%"""
+Mayor o igual de 40 20%
+Millones y menor de 80 
+Millones
+Mayor o igual de 80 
+millones y menor de 
+160 Millones
+25%
+De 160 Millones en 
+adelante
+30%
+Realice un método que diga cuanto vendió y la comisión de los 100 
+vendedores que tiene la empresa"""
 def comision():
   for n in range( 1, 101):
     venta = float(input(f'Ventas realizadas empleado {n}: '))
