@@ -25,7 +25,7 @@ elif tipo_animal == "jirafas":
 elif tipo_animal == "chimpances":
     numero_de_muestras = 40
 
-for a in range(numero_de_muestras):
+for a in range(numero_de_muestras + 1):
     edades_de_animales.append(int(input('Edad del animal: ')))
 
 for edad in edades_de_animales:
